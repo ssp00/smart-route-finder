@@ -243,6 +243,7 @@ const Index = () => {
             </div>
 
             {showSteps && result && <AlgorithmSteps steps={result.steps} />}
+            <AlgorithmExplanation />
           </div>
         </div>
       </div>
