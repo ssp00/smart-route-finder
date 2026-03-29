@@ -4,6 +4,7 @@ import { runDijkstra, OptimizeMode, DijkstraResult } from "@/lib/dijkstra";
 import GraphVisualization from "@/components/GraphVisualization";
 import RouteResult from "@/components/RouteResult";
 import AlgorithmSteps from "@/components/AlgorithmSteps";
+import AlgorithmExplanation from "@/components/AlgorithmExplanation";
 import {
   Select,
   SelectContent,
